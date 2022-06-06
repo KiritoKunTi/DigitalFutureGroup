@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,6 +8,11 @@
 
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
 
 body {
@@ -239,3 +244,80 @@ body {
     box-shadow: inset 0 0 0 2em white;
 }
 /* / MAIN  */
+
+/* ACHIEVEMENTS */
+
+.achievements {
+    padding: 100px 0 95px;
+    background-color: #F7F8F7;
+
+}
+.achievements-block {
+    width: 1076px;
+    text-align: center;
+}
+.achieve__title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+
+    margin-bottom: 20px;
+}
+.achieve__subtitle {
+    font-family: 'Roboto Slab', serif;
+
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    margin-bottom: 48px;
+}
+.achieve__subtitle p {
+    font-weight: 700;
+}
+.color-blue {
+}
+.achieve__content {
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+.content-box {
+}
+.content-box h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+.content-img {
+    margin-bottom: 25px;
+}
+.content-box a {
+    display: inline-block;
+    padding: 18px 42px;
+
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    border-radius: 8px;
+    transition: all .3s linear;
+}
+.certificate-btn {
+    color: #2979ff;
+}
+.certificate-btn:where(:focus, :hover) {
+    background-color: #2979FF;
+    color: white;
+}
+.report-btn {
+    color: white;
+    background-color: #2979FF;
+}
+.report-btn:where(:focus, :hover) {
+    background-color: white;
+    color: #2979FF;
+}
+
+
+/* / ACHIEVEMENTS */
