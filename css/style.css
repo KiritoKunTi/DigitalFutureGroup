@@ -14,7 +14,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.color-blue { color: blue; }
+.color-blue { color: #2979FF; }
 
 /* HEADER */
 
@@ -57,6 +57,12 @@ body {
     font-size: 1rem;
     color: #212121;
     line-height: 1.25rem;
+
+    transition: all .2s ease;
+}
+.menu__item:where(:focus, :hover) {
+    color: #2979FF;
+    text-shadow: 0 0 1px #2979FF;
 }
 .touch-btn {
     font-size: 1.25rem;
@@ -67,6 +73,12 @@ body {
     padding: 15px 37px;
     border: 2px solid #2979ff;
     border-radius: 8px;
+
+    transition: all .3s linear;
+}
+.touch-btn:where(:focus, :hover) {
+    color: white;
+    box-shadow: inset 0 3.2rem 0 0 #2979FF;
 }
 
 /* / HEADER */
@@ -92,6 +104,9 @@ body {
     line-height: 30px;
 
     margin-bottom: 3.75rem;
+}
+.main__subtitle span {
+    font-weight: 600;
 }
 .audit {
 }
@@ -150,12 +165,77 @@ body {
     line-height: 1.25rem;
     color: white;
 
+    border: 1px solid #2979FF;
     border-radius: 8px;
-    background-color: blue;
+    background-color: #2979FF;
 
     margin-top: 30px;
+    transition: all .3s linear;
+}
+.audit-btn:where(:hover, :focus) {
+    color: #2979FF;
+    box-shadow: inset 17rem 0 0 0 white;
 }
 .text-align-center {
     text-align: center;
+}
+
+.clients {
+    margin-top: 160px;
+}
+.clients-block {
+    display: flex;
+    justify-content: space-between;
+}
+.our-clients {
+
+}
+.our-clients h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+
+    margin-bottom: 20px;
+}
+.our-clients p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 28px;
+}
+.images {
+    display: flex;
+    align-items: center;
+}
+.lets-talk {
+    text-align: center;
+    padding: 32.5px 17px;
+    border: 2px solid #2979FF40;
+}
+.lets-talk p {
+    max-width: 502px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #536076;
+
+    margin-bottom: 20px;
+}
+.talk-btn {
+    display: inline-block;
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+
+    padding: 18px 42px;
+    border: 1px solid #2979FF;
+    background-color: #2979FF;
+    border-radius: 8px;
+    transition: all .3s linear
+}
+.talk-btn:where(:hover, :focus) {
+    color: #2979FF;
+    box-shadow: inset 0 0 0 2em white;
 }
 /* / MAIN  */
