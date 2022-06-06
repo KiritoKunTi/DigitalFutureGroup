@@ -15,6 +15,9 @@ body {
 }
 
 .color-blue { color: blue; }
+
+/* HEADER */
+
 .header {
     border-bottom: 1px solid #e0e0e0;
 }
@@ -65,3 +68,94 @@ body {
     border: 2px solid #2979ff;
     border-radius: 8px;
 }
+
+/* / HEADER */
+
+/* MAIN  */
+.main {
+    padding: 35px 0 150px;
+}
+.main-block {
+}
+.container {
+}
+.main__title {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+
+    margin-bottom: 1.25rem;
+}
+.main__subtitle {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    margin-bottom: 3.75rem;
+}
+.audit {
+}
+.audit-block {
+}
+.audit__title {
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 2.25rem;
+
+    margin-bottom: 1.25rem;
+}
+.audit-people {
+    display: flex;
+    gap: 21px;
+}
+.profile {
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+
+    margin-bottom: 1.25rem;
+}
+.audit-person {
+    flex-basis: 100%;
+    background-color:#F7F8F7;
+
+    padding: 30px 40px;
+}
+.person-picture {
+}
+.person-info {
+}
+.person-name {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+
+    margin-bottom: 8px;
+}
+.person-work {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #7d7d7d
+}
+.person-about {
+    font-weight: 400;
+    font-size: 24px;
+}
+.audit-btn {
+    display: inline-block;
+    padding: 18px 42px;
+
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    color: white;
+
+    border-radius: 8px;
+    background-color: blue;
+
+    margin-top: 30px;
+}
+.text-align-center {
+    text-align: center;
+}
+/* / MAIN  */
