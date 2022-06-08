@@ -405,3 +405,61 @@ body {
     max-height: 427px;
 }
 /* / CASES */
+
+/* TECHNOLOGIES  */
+.technologies {
+    margin: 150px 0;
+}
+.technologies-block {
+}
+.tech-title {
+    margin-bottom: 40px;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.tech-content {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-content: center;
+}
+.tech-box {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+
+    transition: box-shadow .3s linear;
+    padding: 18px;
+    box-shadow: #2978ff37 0px 8px 24px;
+    border-radius: 10px;
+}
+.tech-box:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, #2979FF 0px 3px 7px -3px;
+}
+.tech-img-wrapper {
+    width: 70px;
+}
+.tech-info {
+}
+.tech-job-count {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    color: #E65100;
+
+
+    border-radius: 30px;
+    padding: 5px 12px;
+    background: #FFEFE9;
+}
+.tech-name {
+    font-weight: 400;
+    font-size: 25px;
+
+    margin: 6px 0 0 6px;
+}
+/* / TECHNOLOGIES  */
